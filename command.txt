@@ -1,0 +1,6 @@
+conf t
+ int lo100
+  ip address 1.1.100.1 255.255.255.255
+  end
+term len 0
+show ip int br
